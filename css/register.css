@@ -1,0 +1,202 @@
+body {
+  background-image : url('../art/background.png');
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+#Header{
+  color:white;
+  padding:5px;
+  margin:5px;
+  margin-left:30px;
+  top:50px;
+  position:fixed;
+  width:700px;
+}
+
+#HeaderLink{
+  font: 20px Arial, sans-serif;
+  margin-left:50px;
+  float:left;
+  margin-top:5px;
+  color: rgba(255, 255, 255, 0.75);
+  text-decoration: none;
+}
+
+#HeaderSpace{
+    font: 20px Arial, sans-serif;
+    margin-left:50px;
+    float:left;
+    margin-top:5px;
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+}
+
+#Logo{
+  font: 30px Arial, sans-serif;
+  font-weight: bold;
+  float:left;
+}
+
+#HeaderLink:hover{
+    color: rgba(255, 255, 255, 1);
+}
+
+#HeaderLink:active{
+      color: rgba(255, 255, 255, 0.75);
+}
+
+#Box{
+  background-color: rgba(0, 0, 0, 0.25);
+  height: 835px;
+  width: 1810px;
+  margin: 50px;
+  margin-top:-150px;
+  border-radius: 25px;
+}
+
+select{
+  width: 200px;
+  height: 50px;
+}
+
+#Id,#Password,#Register,#FirstName,#LastName,#City,#Faculty{
+  width:300px;
+  height:60px;
+  border:none;
+  border-radius:15px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  background-color: white;;
+  font: 20px Arial, sans-serif;
+  color:black;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+#idLabel,#passwordLabel,#firstNameLabel,#lastNameLabel,#cityLabel,#facultyLabel{
+  font: 20px Arial, sans-serif;
+  margin-left:100px;
+  color:white;
+}
+#idLabel{
+  margin-left: 95px;
+}
+
+#passwordLabel{
+  margin-left: 105px;
+}
+
+#LoginForm{
+  margin-top:200px;
+  margin-left:550px;
+}
+
+#Id,#Password,#Register,#FirstName,#LastName,#Select,#City:focus{
+  outline:none;
+}
+
+#LoginForm {
+  position:relative;
+  top:150px;
+}
+
+#Register {
+  background-color: #D9324A;
+  position:relative;
+  top:25px;
+  font: 20px Arial, sans-serif;
+  color:white;
+  text-decoration: none;
+  left:200px;
+  font-weight: bold;
+}
+
+#Id:focus {
+  border: 2px solid #B4AAEC;
+}
+
+#Password:focus {
+  border: 2px solid #B4AAEC;
+}
+
+#FirstName:focus {
+  border: 2px solid #B4AAEC;
+}
+
+#LastName:focus {
+  border: 2px solid #B4AAEC;
+}
+
+#City:focus {
+  border: 2px solid #B4AAEC;
+}
+
+#Faculty:focus {
+  border: 2px solid #B4AAEC;
+}
+
+#Register:hover {
+  background-color: #f55d73;
+  box-shadow: 0px 15px 20px rgba(245, 93, 115, 0.4);
+  transform: translateY(-7px);
+}
+
+#Register:active {
+  background-color: #b0152b;
+  box-shadow: 0px 15px 20px rgba(245, 93, 115, 0.4);
+  transform: translateY(-7px);
+}
+
+#Logo{
+  color:white;
+  text-decoration: none;
+  margin-top:20px;
+}
+
+#password,#city,#faculty{
+  margin-left:100px;
+}
+
+#passwordLabel{
+  margin-left: 300px;
+}
+
+#cityLabel{
+margin-left: 335px;
+}
+
+#facultyLabel{
+margin-left: 320px;
+}
+
+#Faculty{
+  text-align-last:center;
+}
+
+#Back{
+  width: 0;
+	height: 0;
+	border-top: 25px solid transparent;
+	border-right: 50px solid #555;
+	border-bottom: 25px solid transparent;
+}
+
+#error1{
+  color: #D9324A;
+  font: 20px Arial, sans-serif;
+  position:relative;
+  top:50px;
+  left:700px;
+  width:500px;
+  font-weight: bold;
+}
+
+#success{
+  color: #DD8C24;
+  font: 20px Arial, sans-serif;
+  position:relative;
+  top:50px;
+  left:800px;
+  width:500px;
+  font-weight: bold;
+}

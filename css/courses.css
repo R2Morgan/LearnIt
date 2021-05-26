@@ -1,0 +1,117 @@
+body {
+  background-image : url('../art/background.png');
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+#Header{
+  color:white;
+  padding:5px;
+  margin:5px;
+  margin-left:30px;
+  top:50px;
+  position:fixed;
+  width:700px;
+}
+
+#HeaderLink{
+  font: 20px Arial, sans-serif;
+  margin-left:50px;
+  float:left;
+  margin-top:5px;
+  color: rgba(255, 255, 255, 0.75);
+  text-decoration: none;
+}
+
+#HeaderSpace{
+    font: 20px Arial, sans-serif;
+    margin-left:50px;
+    float:left;
+    margin-top:5px;
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+}
+
+#Logo{
+  font: 30px Arial, sans-serif;
+  font-weight: bold;
+  float:left;
+}
+
+#HeaderLink:hover{
+    color: rgba(255, 255, 255, 1);
+}
+
+#HeaderLink:active{
+      color: rgba(255, 255, 255, 0.75);
+}
+
+#Box{
+  background-color: rgba(0, 0, 0, 0.25);
+  height: 835px;
+  width: 1810px;
+  margin: 50px;
+  margin-top:50px;
+  border-radius: 25px;
+}
+
+#Logo{
+  color:white;
+  text-decoration: none;
+  margin-top:20px;
+}
+
+#List{
+  overflow:auto;
+  padding:0;
+  position: relative;
+  max-height:600px;
+  height:600px;
+  top:150px;
+  left:500px;
+  width:1300px;
+  margin-left:5px;
+}
+
+#List::-webkit-scrollbar {
+  display:none;
+}
+
+#Course{
+  background-color: rgba(255, 255, 255, 0.75);
+  width:800px;
+  height:500px;
+  margin-bottom: 50px;
+  border-radius: 25px;
+  padding: 25px;
+  border: 10px solid rgba(194, 186, 255,0.5);
+  font: 20px Arial, sans-serif;
+}
+
+img{
+  position: relative;
+  top:-335px;
+  left:500px;
+  width: 300px;
+  height:300px;
+}
+
+#Title{
+  position:relative;
+  top:50px;
+  width:475px;
+  text-align: center;
+}
+
+#Professor{
+  text-align: center;
+  position:relative;
+  top:120px;
+  width:475px;
+}
+
+#Description{
+  position:relative;
+  top:190px;
+  height:185px;
+}

@@ -1,0 +1,231 @@
+#Screen{
+  background-color:#2600AB;
+  width:1500px;
+  height:800px;
+  position:relative;
+  top:60px;
+  left:210px;
+  border-radius: 25px;
+}
+
+#Back{
+  width:100px;
+  height:100px;
+  margin-top:-100px;
+  position:relative;
+  top:500px;
+  left:50px;
+  background:transparent;
+  border:none;
+}
+
+#BackImage{
+  width:100px;
+  height:100px;
+}
+
+#BackImage:hover{
+  filter:saturate(60%);
+}
+
+#BackImage:active{
+filter:saturate(130%);
+}
+
+#List{
+  position:relative;
+  top:55px;
+  list-style-type: none;
+  font: 18px Arial, sans-serif;
+  height: 520px;
+  width:1400px;
+  left:10px;
+  overflow:hidden; overflow-y:scroll;
+}
+
+#List::-webkit-scrollbar {
+  display:none;
+}
+
+li, li #Text, li #Answer, li #Correct, li #Easy, li #Medium, li #Hard, li #CheckbocTab{
+  background-color: #B4AAEC;
+  color:white;
+  font: 18px Arial, sans-serif;
+}
+
+#Image{
+  max-width:300px;
+  max-height:250px;
+  width:300px;
+  height:245px;
+}
+
+li{
+  height:250px;
+  width: 1540px;
+  border: 1px solid #B4AAEC;
+  margin-bottom: 10px;
+}
+
+ul{
+  position: relative;
+  top:75px;
+}
+
+#Question{
+  height:245px;
+}
+
+#Text{
+  width: 300px;
+  text-align: center;
+  padding:10px;
+}
+
+#Answer, #Correct{
+  width: 125px;
+  text-align: center;
+  padding:10px;
+}
+
+#Correct{
+  font-weight: bold;
+}
+
+#Nothing{
+  width: 280px;
+  text-align: center;
+  padding:10px;
+}
+
+#Easy, #Medium, #Hard{
+  width: 100px;
+  text-align: center;
+  padding:10px;
+}
+
+#NewQuestion{
+  width:300px;
+  height:75px;
+  position: relative;
+  top:50px;
+  left:40px;
+  font: 18px Arial, sans-serif;
+  background-color:#2600AB;
+  color:white;
+  font-weight: bold;
+  border:none;
+  border-radius:15px;
+}
+
+#NewQuestion:focus{
+  outline: none;
+}
+
+#NewQuestion:hover{
+  background-color:#3b12c9;
+  box-shadow: 0px 15px 20px rgba(69, 30, 201, 0.4);
+  transform: translateY(-7px);
+}
+
+#NewQuestion:active{
+  background-color:#1c007d;
+  box-shadow: 0px 15px 20px rgba(26, 0, 115, 0.4);
+  transform: translateY(-7px);
+}
+
+#Course{
+  font: 18px Arial, sans-serif;
+  width:600px;
+  height:50px;
+  margin-bottom: -75px;
+  border-radius: 15px;
+  text-align-last: center;
+  margin-top:50px;
+  margin-left:50px;
+}
+
+#Course:focus{
+  outline:none;
+}
+
+#Name{
+  font: 18px Arial, sans-serif;
+  width:500px;
+  height:50px;
+  margin-top:25px;
+  margin-bottom:-50px;
+  border-radius: 15px;
+  text-align: center;
+  border-width: 0px;
+  margin-left:950px;
+}
+
+#Name:focus{
+  outline:none;
+}
+
+#Description{
+  font: 18px Arial, sans-serif;
+  width:1000px;
+  height:50px;
+  margin-bottom:-25px;
+  position:relative;
+  top:650px;
+  border-radius: 15px;
+  text-align: center;
+  margin-left: 50px;
+  border-width: 0px;
+}
+
+#Description:focus{
+  outline:none;
+}
+
+#Submit{
+  font: 18px Arial, sans-serif;
+  width:390px;
+  height:50px;
+  margin-top:50px;
+  margin-left:1060px;
+  border-radius: 15px;
+  border-width: 0px;
+  background-color:#DD8C24;
+  color:white;
+  position:relative;
+  top:-10px;
+}
+
+#Submit:focus{
+  outline:none;
+}
+
+#Submit:hover {
+  background-color: #ffb04a;
+  box-shadow: 0px 15px 20px rgba(255, 177, 74, 0.4);
+  transform: translateY(-7px);
+}
+
+#Submit:active {
+  background-color: #b5721b;
+  box-shadow: 0px 15px 20px rgba(255, 177, 74, 0.4);
+  transform: translateY(-7px);
+}
+
+#Check{
+  width:25px;
+  height:25px;
+  margin-left: 15px;
+}
+
+#CheckboxTab{
+  width:55px;
+}
+
+#isExam{
+  width:25px;
+  height:25px;
+  position:relative;
+  left:-275px;
+  top:7px;
+}

@@ -1,0 +1,440 @@
+body{
+  background-color:grey;
+  margin:0px;
+}
+#Menu{
+  background-color:#2600AB;
+  position:fixed;
+  width:300px;
+  height:937px;
+  left:0px;
+  top:0px;
+}
+#MainScreen{
+  background-color:white;
+  position:relative;
+  width:1620px;
+  height:937px;
+  left:300px;
+  margin-bottom:0px;
+}
+
+#Logo{
+  color:white;
+  position:relative;
+  font: 30px Arial, sans-serif;
+  font-weight: bold;
+  left:100px;
+  width:100px;
+}
+
+#Profile{
+  width:81px;
+  height:81px;
+  position:relative;
+  top:-90px;
+  left: 111px;
+  border-radius: 50%;
+}
+
+#Option,#Option1,#Option2,#Option3,#Option4{
+  background-color:#B4AAEC;
+  width:250px;
+  height:110px;
+  position:relative;
+  top:-100px;
+  left:25px;
+  margin-bottom: 0px;
+  margin-top:25px;
+  border-radius: 25px;
+  padding:10px;
+  color:white;
+  font: 20px Arial, sans-serif;
+  border: 0px;
+  text-align: center;
+  font-weight: bold;
+}
+
+#Title{
+  color:white;
+  font: 20px Arial, sans-serif;
+  position:relative;
+  top:-85px;
+  width:250px;
+  left: 25px;
+  text-align: center;
+}
+
+#LogOut{
+  font: 20px Arial, sans-serif;
+  background-color: rgba(180, 170, 236, 0);
+  border: 0px solid white;
+  color: rgba(180, 170, 236, 1);
+  position:relative;
+  left:108px;
+  width:84px;
+  top:-80px;
+}
+
+#LogOut:focus{
+  outline: none;
+}
+
+#LogOut:hover{
+  color:white;
+}
+
+#LogOut:active{
+  color:rgba(180, 170, 236, 1);
+}
+
+#Profile:focus{
+  outline:none;
+}
+
+#Status{
+  border-radius: 50px;
+  width:85px;
+  height:85px;
+  background-color:#17cc06;
+  position:relative;
+  left: 109px;
+  top:-7px;
+}
+
+#Notification{
+  position:relative;
+  width:25px;
+  height:25px;
+  top:-150px;
+  left:80px;
+  visibility: hidden;
+}
+
+#Notification:focus{
+  outline:none;
+}
+
+#Option1:focus{
+  outline: none;
+}
+
+#Option1:hover{
+  background-color: #d6cfff;
+}
+
+#Option1:active{
+  background-color: #9a91cf;
+}
+
+#Option2:focus{
+  outline: none;
+}
+
+#Option2:hover{
+  background-color: #d6cfff;
+}
+
+#Option2:active{
+  background-color: #9a91cf;
+}
+
+#Option3:focus{
+  outline: none;
+}
+
+#Option3:hover{
+  background-color: #d6cfff;
+}
+
+#Option3:active{
+  background-color: #9a91cf;
+}
+
+#Option4:focus{
+  outline: none;
+}
+
+#Option4:hover{
+  background-color: #d6cfff;
+}
+
+#Option4:active{
+  background-color: #9a91cf;
+}
+
+#Option:focus{
+  outline: none;
+}
+
+#Option:hover{
+  background-color: #d6cfff;
+}
+
+#Option:active{
+  background-color: #9a91cf;
+}
+
+#OptionTitle{
+  font: 18px Arial, sans-serif;
+  font-weight: bold;
+  position:relative;
+  top:-5px;
+}
+
+#submitted{
+  font: 18px Arial, sans-serif;
+  width:100px;
+  position:relative;
+  text-align: center;
+  color:white;
+  font-weight: bold;
+  top:-10px;
+}
+
+#pending{
+  font: 18px Arial, sans-serif;
+  width:100px;
+  position:relative;
+  text-align: center;
+  color:white;
+  font-weight: bold;
+  top:-10px;
+}
+
+#submittedNr{
+  font: 18px Arial, sans-serif;
+  width:100px;
+  position:relative;
+  text-align: center;
+  color:white;
+  font-weight: bold;
+  top:5px;
+}
+
+#pendingNr{
+  font: 18px Arial, sans-serif;
+  width:100px;
+  position:relative;
+  text-align: center;
+  color:white;
+  font-weight: bold;
+  top:5px;
+}
+
+#Option1a{
+  background-color:#DD8C24;
+  position: relative;
+  top:-10px;
+  height:50px;
+  border-radius: 15px;
+}
+
+#Option1b{
+  background-color:#D9324A;
+  position: relative;
+  left:20px;
+  top:-10px;
+  height:50px;
+  border-radius: 15px;
+}
+
+#Settings{
+  height:930px;
+  width:800px;
+}
+
+#Info{
+  background-color:#2600AB;
+  margin-left:10px;
+  height:930px;
+  width:800px;
+  border-radius:25px;
+}
+
+#ProfilePicture{
+  width:80px;
+  height:80px;
+  border-radius: 50%;
+  margin-top:75px;
+  margin-bottom: 25px;
+}
+
+#InfoTable{
+  font: 18px Arial, sans-serif;
+  color:white;
+  font-weight: normal;
+  margin-top:50px;
+  margin-left:100px;
+  width:600px;
+}
+
+#No1,#No2,#No3,#No4,#No5,#No6,#No7{
+  height:75px;
+}
+
+#O1,#O2,#O3,#O4,#O5,#O6,#O7{
+  text-align: right;
+}
+
+#N1{
+text-align: left;
+}
+
+#S_Image, #S_FN, #S_LN, #S_City, #S_Faculty, #S_Status, #S_Gender, #S_Email, #S_Submit, #S_Password{
+  text-align: center;
+  width:300px;
+  height:75px;
+  font: 18px Arial, sans-serif;
+  border-radius: 15px;
+  border-width: 2px;
+  margin-top:25px;
+  border-style:solid;
+  border-color:#DD8C24;
+  margin-right:10px;
+  margin-left:10px;
+  text-align-last:center;
+}
+
+#S_Image, #S_Email, #S_Password{
+  width:620px;
+}
+
+#S_Image:focus, #S_FN:focus, #S_LN:focus, #S_City:focus, #S_Faculty:focus, #S_Status:focus, #S_Gender:focus, #S_Email:focus, #S_Submit:focus, #S_Password:focus{
+  outline:none;
+}
+
+#S_Submit{
+  color:white;
+  border: 0px solid;
+  background-color:#D9324A;
+}
+
+#S_Submit:hover {
+  background-color: #f55d73;
+  box-shadow: 0px 15px 20px rgba(245, 93, 115, 0.4);
+  transform: translateY(-7px);
+}
+
+#S_Submit:active {
+  background-color: #b0152b;
+  box-shadow: 0px 15px 20px rgba(245, 93, 115, 0.4);
+  transform: translateY(-7px);
+}
+
+#deleteNot{
+  text-align: center;
+  width:300px;
+  height:75px;
+  font: 18px Arial, sans-serif;
+  border-radius: 15px;
+  border-width: 2px;
+  margin-top:25px;
+  border-style:solid;
+  margin-right:10px;
+  margin-left:10px;
+  text-align-last:center;
+  color:white;
+  border: 0px solid;
+  background-color:#DD8C24;
+}
+
+#deleteNot:hover {
+  background-color: #ffb04a;
+  box-shadow: 0px 15px 20px rgba(255, 177, 74, 0.4);
+  transform: translateY(-7px);
+}
+
+#deleteNot:active {
+  background-color: #b5721b;
+  box-shadow: 0px 15px 20px rgba(255, 177, 74, 0.4);
+  transform: translateY(-7px);
+}
+
+#deleteNot:focus{
+  outline:none;
+}
+
+#S_Image{
+  margin-top:150px;
+}
+
+#error{
+  background-color:red;
+  color:black;
+  width:800px;
+  margin-left:600px;
+  height:500px;
+  text-align: right;
+}
+
+#myModal{
+  display:none;
+  width:340px;
+  height:700px;
+  background-color:#B4AAEC;
+  position: fixed;
+  left:300px;
+  z-index: 1;
+  overflow: auto;
+  border-radius: 0px 25px 25px 0px;
+  box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.2), 0 6px 15px 0 rgba(0, 0, 0, 0.19);
+}
+
+.close {
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  position:relative;
+  left:-20px;
+  top:10px;
+}
+
+.close:hover,
+.close:focus {
+  color: grey;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#Not{
+  font: 15px Arial, sans-serif;
+  width:320px;
+  height:100px;
+  background-color: white;
+  position:relative;
+  top:50px;
+  left:10px;
+  border-radius: 15px;
+}
+
+#NotTitle{
+  font-weight: normal;
+  text-align: center;
+  position: relative;
+  top:5px;
+}
+
+#NotDesc{
+  font-weight: normal;
+  text-align: center;
+  position: relative;
+  top:-10px;
+  height:45px;
+  max-height:45px;
+  width:320px;
+  max-width: 320px;
+}
+
+#NotFrom{
+  font-weight: normal;
+  text-align: right;
+  position: relative;
+  top:-25px;
+  right:10px;
+}
+
+#myModal::-webkit-scrollbar{
+  display:none;
+}

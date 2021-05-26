@@ -1,0 +1,200 @@
+body {
+  background-image : url('../art/background.png');
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+#Header{
+  color:white;
+  padding:5px;
+  margin:5px;
+  margin-left:30px;
+  top:50px;
+  position:fixed;
+  width:700px;
+}
+
+#HeaderLink{
+  font: 20px Arial, sans-serif;
+  margin-left:50px;
+  float:left;
+  margin-top:5px;
+  color: rgba(255, 255, 255, 0.75);
+  text-decoration: none;
+}
+
+#HeaderSpace{
+    font: 20px Arial, sans-serif;
+    margin-left:50px;
+    float:left;
+    margin-top:5px;
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+}
+
+#Logo{
+  font: 30px Arial, sans-serif;
+  font-weight: bold;
+  float:left;
+}
+
+#HeaderLink:hover{
+    color: rgba(255, 255, 255, 1);
+}
+
+#HeaderLink:active{
+      color: rgba(255, 255, 255, 0.75);
+}
+
+#Box{
+  background-color: rgba(0, 0, 0, 0.25);
+  height: 835px;
+  width: 1810px;
+  margin: 50px;
+  border-radius: 25px;
+}
+
+#Id,#Message,#Email,#Send{
+  width:300px;
+  height:60px;
+  border:none;
+  border-radius:15px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  font: 20px Arial, sans-serif;
+  color:black;
+  text-align: center;
+  margin-bottom: 50px;
+  margin-left:-125px;
+  margin-right: 200px;
+  margin-top:25px;
+}
+
+#idLabel,#messageLabel,#emailLabel{
+  font: 20px Arial, sans-serif;
+  color:white;
+}
+#idLabel{
+  margin-left: -30px;
+  position:relative;
+  top:25px;
+}
+
+#emailLabel{
+  position:relative;
+  top:-205px;
+}
+
+#ContactForm{
+  margin-left:700px;
+  margin-top:-50px;
+  height:500px;
+}
+
+#messageLabel{
+  position:relative;
+  top:25px;
+  margin-left:276px;
+}
+
+#Id{
+  position:relative;
+  top:-240px;
+}
+
+#Message{
+  height: 225px;
+  resize: none;
+}
+
+#Email{
+  position:relative;
+  top:-230px;
+}
+
+#Send{
+  background-color: #DD8C24;
+  color:white;
+  font-weight: bold;
+  position:relative;
+  top:-250px;
+  left:185px;
+}
+
+#Id,#Message,#Email,#Send:focus{
+  outline:none;
+}
+
+#ContactForm {
+  position:relative;
+  top:200px;
+}
+
+#Id:focus {
+  border: 2px solid #B4AAEC;
+}
+
+#Message:focus {
+  border: 2px solid #B4AAEC;
+}
+
+#Email:focus {
+  border: 2px solid #B4AAEC;
+}
+
+#Send:hover {
+  background-color: #ffb04a;
+  box-shadow: 0px 15px 20px rgba(255, 177, 74, 0.4);
+  transform: translateY(-7px);
+}
+
+#Send:active {
+  background-color: #b5721b;
+  box-shadow: 0px 15px 20px rgba(255, 177, 74, 0.4);
+  transform: translateY(-7px);
+}
+
+#Logo{
+  color:white;
+  text-decoration: none;
+  margin-top:20px;
+}
+
+#error{
+  color: #D9324A;
+  font: 20px Arial, sans-serif;
+  position:relative;
+  top:150px;
+  left:1300px;
+  width:300px;
+  font-weight: bold;
+}
+
+#Title{
+    font: 30px Arial, sans-serif;
+    color:white;
+    font-weight: bold;
+    position:relative;
+    top:150px;
+    left:825px;
+    width:200px;
+}
+
+#Title2{
+  font: 20px Arial, sans-serif;
+  color:white;
+  position:relative;
+  top:150px;
+  left:625px;
+  width:600px;
+}
+
+#success{
+  color: #DD8C24;
+  font: 20px Arial, sans-serif;
+  position:relative;
+  top:150px;
+  left:1300px;
+  width:300px;
+  font-weight: bold;
+}

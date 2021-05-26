@@ -1,0 +1,495 @@
+body{
+  background-color:grey;
+  margin:0px;
+}
+#Menu{
+  background-color:#2600AB;
+  position:fixed;
+  width:300px;
+  height:937px;
+  left:0px;
+  top:0px;
+}
+#MainScreen{
+  background-color:white;
+  position:relative;
+  width:1620px;
+  height:937px;
+  left:300px;
+  margin-bottom:0px;
+}
+
+#Logo{
+  color:white;
+  position:relative;
+  font: 30px Arial, sans-serif;
+  font-weight: bold;
+  left:100px;
+  width:100px;
+}
+
+#Profile{
+  width:81px;
+  height:81px;
+  position:relative;
+  top:-90px;
+  left: 111px;
+  border-radius: 50%;
+}
+
+#Option,#Option1,#Option2,#Option3,#Option4{
+  background-color:#B4AAEC;
+  width:250px;
+  height:110px;
+  position:relative;
+  top:-100px;
+  left:25px;
+  margin-bottom: 0px;
+  margin-top:25px;
+  border-radius: 25px;
+  padding:10px;
+  color:white;
+  font: 20px Arial, sans-serif;
+  border: 0px;
+  text-align: center;
+  font-weight: bold;
+}
+
+#Title{
+  color:white;
+  font: 20px Arial, sans-serif;
+  position:relative;
+  top:-85px;
+  width:250px;
+  left: 25px;
+  text-align: center;
+}
+
+#LogOut{
+  font: 20px Arial, sans-serif;
+  background-color: rgba(180, 170, 236, 0);
+  border: 0px solid white;
+  color: rgba(180, 170, 236, 1);
+  position:relative;
+  left:108px;
+  width:84px;
+  top:-80px;
+}
+
+#LogOut:focus{
+  outline: none;
+}
+
+#LogOut:hover{
+  color:white;
+}
+
+#LogOut:active{
+  color:rgba(180, 170, 236, 1);
+}
+
+#Profile:focus{
+  outline:none;
+}
+
+#Status{
+  border-radius: 50px;
+  width:85px;
+  height:85px;
+  background-color:#17cc06;
+  position:relative;
+  left: 109px;
+  top:-7px;
+}
+
+#Notification{
+  position:relative;
+  width:25px;
+  height:25px;
+  top:-150px;
+  left:80px;
+  visibility: hidden;
+}
+
+#Notification:focus{
+  outline:none;
+}
+
+#Option1:focus{
+  outline: none;
+}
+
+#Option1:hover{
+  background-color: #d6cfff;
+}
+
+#Option1:active{
+  background-color: #9a91cf;
+}
+
+#Option2:focus{
+  outline: none;
+}
+
+#Option2:hover{
+  background-color: #d6cfff;
+}
+
+#Option2:active{
+  background-color: #9a91cf;
+}
+
+#Option3:focus{
+  outline: none;
+}
+
+#Option3:hover{
+  background-color: #d6cfff;
+}
+
+#Option3:active{
+  background-color: #9a91cf;
+}
+
+#Option4:focus{
+  outline: none;
+}
+
+#Option4:hover{
+  background-color: #d6cfff;
+}
+
+#Option4:active{
+  background-color: #9a91cf;
+}
+
+#Option:focus{
+  outline: none;
+}
+
+#Option:hover{
+  background-color: #d6cfff;
+}
+
+#Option:active{
+  background-color: #9a91cf;
+}
+
+#OptionTitle{
+  font: 18px Arial, sans-serif;
+  font-weight: bold;
+  position:relative;
+  top:-5px;
+}
+
+#submitted{
+  font: 18px Arial, sans-serif;
+  width:100px;
+  position:relative;
+  text-align: center;
+  color:white;
+  font-weight: bold;
+  top:-10px;
+}
+
+#pending{
+  font: 18px Arial, sans-serif;
+  width:100px;
+  position:relative;
+  text-align: center;
+  color:white;
+  font-weight: bold;
+  top:-10px;
+}
+
+#submittedNr{
+  font: 18px Arial, sans-serif;
+  width:100px;
+  position:relative;
+  text-align: center;
+  color:white;
+  font-weight: bold;
+  top:5px;
+}
+
+#pendingNr{
+  font: 18px Arial, sans-serif;
+  width:100px;
+  position:relative;
+  text-align: center;
+  color:white;
+  font-weight: bold;
+  top:5px;
+}
+
+#Option1a{
+  background-color:#DD8C24;
+  position: relative;
+  top:-10px;
+  height:50px;
+  border-radius: 15px;
+}
+
+#Option1b{
+  background-color:#D9324A;
+  position: relative;
+  left:20px;
+  top:-10px;
+  height:50px;
+  border-radius: 15px;
+}
+
+#Background{
+  position:relative;
+  width: 1580px;
+  top:-60px;
+  height:935px;
+}
+
+#PP{
+  width:50px;
+  position:relative;
+  z-index:1;
+  left:25px;
+  top:-31px;
+  border-radius: 50px;
+}
+
+#userStatus{
+  width:56px;
+  height:56px;
+  border-radius: 50px;
+  position:relative;
+  top:22px;
+  left:22px;
+  width:56px;
+  margin:0px;
+}
+
+#Name{
+  position:relative;
+  top:-105px;
+  left:125px;
+  width:200px;
+}
+
+#HeadBar{
+  background-color:#B4AAEC;
+  width:1620px;
+  height:75px;
+  box-shadow: 0px 5px 5px #c9c9c9;
+  text-decoration: none;
+  color:white;
+}
+
+#goBack{
+  font: 25px Arial, sans-serif;
+  text-decoration: none;
+  color:white;
+  position:relative;
+  left:25px;
+  top:22px;
+  position: relative;
+  z-index: 1;
+}
+
+#Name{
+    font: 25px Arial, sans-serif;
+    margin:auto;
+    position:relative;
+    color:white;
+    top:-113px;
+    left:20px;
+    padding-left: 25px;
+}
+
+#UserData{
+  position:relative;
+  text-align: center;
+  align-items: center;
+}
+
+#userStatus{
+  margin:auto;
+  position:relative;
+  left:-100px;
+  top:-20px;
+}
+
+#PP{
+  margin:auto;
+  left:-100px;
+  top:-73px;
+}
+
+#MessageList{
+height:750px;
+list-style-type: none;
+overflow:auto;
+margin-right:25px;
+margin-left:-25px;
+}
+
+#MessageList::-webkit-scrollbar {
+  display:none;
+}
+
+#Message1{
+  position:relative;
+  background-color: #2600AB;
+  width: fit-content;
+  max-width:800px;
+  padding:15px;
+  margin:15px;
+  border-radius: 25px;
+  color:white;
+}
+
+#Message0{
+  background-color: #B4AAEC;
+  display: block;
+  width: fit-content;
+  max-width:800px;
+  padding:15px;
+  margin:15px;
+  border-radius: 25px;
+  color:white;
+  margin-left: auto;
+  margin-right: 0;
+}
+
+#Message0 #Date{
+  text-align: right;
+}
+
+#Text{
+  font-weight: normal;
+  margin:5px;
+}
+
+#Date{
+  font-weight: normal;
+  margin:5px;
+}
+
+#NewMessage{
+height:80px;
+}
+
+#NewText{
+  position:relative;
+  width:1500px;
+  height:60px;
+  top:10px;
+  left:25px;
+  border-radius: 25px;
+  border-color: #DD8C24;
+  border-style:solid;
+  padding: 15px;
+  font: 15px Arial, sans-serif;
+}
+
+#NewText:focus{
+    outline: none;
+}
+
+#SendText:focus{
+    outline: none;
+}
+
+#SendText{
+  position:relative;
+  left:25px;
+  background-color:#D9324A;
+  font: 25px Arial, sans-serif;
+  color:white;
+  border-width: 0px;
+  border-radius: 25px;
+  width:50px;
+  height:50px;
+  top:13px;
+  left:40px;
+}
+
+#SendText:hover{
+  background-color: #f55d73;
+  box-shadow: 0px 15px 20px rgba(245, 93, 115, 0.4);
+  transform: translateY(-7px);
+}
+
+#SendText:active {
+  background-color: #b0152b;
+  box-shadow: 0px 15px 20px rgba(245, 93, 115, 0.4);
+  transform: translateY(-7px);
+}
+
+#myModal{
+  display:none;
+  width:340px;
+  height:700px;
+  background-color:#B4AAEC;
+  position: fixed;
+  left:300px;
+  z-index: 1;
+  overflow: auto;
+  border-radius: 0px 25px 25px 0px;
+  box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.2), 0 6px 15px 0 rgba(0, 0, 0, 0.19);
+}
+
+.close {
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  position:relative;
+  left:-20px;
+  top:10px;
+}
+
+.close:hover,
+.close:focus {
+  color: grey;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#Not{
+  font: 15px Arial, sans-serif;
+  width:320px;
+  height:100px;
+  background-color: white;
+  position:relative;
+  top:50px;
+  left:10px;
+  border-radius: 15px;
+}
+
+#NotTitle{
+  font-weight: normal;
+  text-align: center;
+  position: relative;
+  top:5px;
+}
+
+#NotDesc{
+  font-weight: normal;
+  text-align: center;
+  position: relative;
+  top:-10px;
+  height:45px;
+  max-height:45px;
+  width:320px;
+  max-width: 320px;
+}
+
+#NotFrom{
+  font-weight: normal;
+  text-align: right;
+  position: relative;
+  top:-25px;
+  right:10px;
+}
+
+#myModal::-webkit-scrollbar{
+  display:none;
+}

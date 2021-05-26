@@ -1,0 +1,84 @@
+#Screen{
+  background-color:#2600AB;
+  width:1500px;
+  height:800px;
+  position:relative;
+  top:60px;
+  left:210px;
+  border-radius: 25px;
+}
+
+#Back{
+  width:100px;
+  height:100px;
+  margin-top:-100px;
+  position:relative;
+  top:500px;
+  left:50px;
+  background:transparent;
+  border:none;
+}
+
+#BackImage{
+  width:100px;
+  height:100px;
+}
+
+#BackImage:hover{
+  filter:saturate(60%);
+}
+
+#BackImage:active{
+filter:saturate(130%);
+}
+
+ul{
+  position:relative;
+  top:50px;
+  left:50px;
+  width:1350px;
+  height:700px;
+  list-style-type: none;
+}
+
+#idH, #fnH, #lnH, #gH{
+  text-align: center;
+  padding: 25px 25px;
+  font: 20px Arial, sans-serif;
+  position:relative;
+  top:10px;
+  color:white;
+}
+
+#idH{
+  width:100px;
+}
+
+#fnH{
+  width:100px;
+}
+
+#lnH{
+  width:100px;
+}
+
+#gH{
+  width:100px;
+  left:700px;
+}
+
+#listElement{
+  margin-bottom: 25px;
+  height:100px;
+  border-radius: 25px;
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(5px);
+  box-shadow: 0px 0px 40px rgba(0,0,0,.5);
+  list-style-type: none;
+  overflow:none;
+  overflow-y:scroll;
+}
+
+#listElement::-webkit-scrollbar{
+  display:none;
+}

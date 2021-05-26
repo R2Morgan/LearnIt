@@ -1,0 +1,74 @@
+#Screen{
+  background-color:#2600AB;
+  width:1500px;
+  height:800px;
+  position:relative;
+  top:60px;
+  left:210px;
+  border-radius: 25px;
+}
+
+#Back{
+  width:100px;
+  height:100px;
+  margin-top:-100px;
+  position:relative;
+  top:500px;
+  left:50px;
+  background:transparent;
+  border:none;
+}
+
+#BackImage{
+  width:100px;
+  height:100px;
+}
+
+#BackImage:hover{
+  filter:saturate(60%);
+}
+
+#BackImage:active{
+filter:saturate(130%);
+}
+
+#name, #Description, #Image, #Submit{
+  background-color: white;
+  border-radius: 15px;
+  text-align: center;
+  height:70;
+  width:600;
+  position:relative;
+  left:450px;
+  top:50px;
+  margin-bottom: 50px;
+  border-width: 0px;
+  font: 20px Arial, sans-serif;
+}
+
+#Description{
+  height:300;
+  width:600;
+}
+
+#Submit{
+  background-color:#DD8C24;
+  color:white;
+}
+
+#Submit:hover{
+  background-color: #ffb04a;
+  box-shadow: 0px 15px 20px rgba(255, 177, 74, 0.4);
+  transform: translateY(-7px);
+}
+
+#Submit:active{
+  background-color: #b5721b;
+  box-shadow: 0px 15px 20px rgba(255, 177, 74, 0.4);
+  transform: translateY(-7px);
+}
+
+
+#Name:focus, #Description:focus, #Image:focus, #Submit:focus{
+  outline:none;
+}

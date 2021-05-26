@@ -1,0 +1,272 @@
+Body{
+  background-image : url('../art/background.png');
+  font: 20px Arial, sans-serif;
+}
+
+#Back{
+  width:200px;
+  height:60px;
+  position: relative;
+  top:30px;
+  left:40px;
+  font: 18px Arial, sans-serif;
+  background-color: #D9324A;
+  color:white;
+  font-weight: bold;
+  border:none;
+  border-radius:15px;
+}
+
+#Back:focus{
+  outline: none;
+}
+
+#Back:hover{
+  background-color: #f55d73;
+  box-shadow: 0px 15px 20px rgba(245, 93, 115, 0.4);
+  transform: translateY(-7px);
+}
+
+#Back:active{
+  background-color: #b0152b;
+  box-shadow: 0px 15px 20px rgba(245, 93, 115, 0.4);
+  transform: translateY(-7px);
+}
+
+Form{
+  border: 10px solid white;
+  background-color:rgb(180, 170, 236);
+  position:relative;
+  left:140px;
+  top:50px;
+  width:1520px;
+  height:630px;
+  border-radius:25px;
+  padding:50px;
+}
+
+::placeholder{
+  color:#ebebeb;
+}
+
+textarea{
+  resize: none;
+}
+
+#Submit{
+  width:200px;
+  height:60px;
+  border-radius:15px;
+  background-color:#DD8C24;
+  border-width: 0px;
+  position:relative;
+  left:85px;
+}
+
+#Submit:focus{
+  outline:none;
+}
+
+#Submit:hover{
+  background-color: #ffb04a;
+  box-shadow: 0px 15px 20px rgba(255, 177, 74, 0.4);
+}
+
+#Submit:active{
+  background-color: #b5721b;
+  box-shadow: 0px 15px 20px rgba(255, 177, 74, 0.4);
+}
+
+#Course, #Submit, #imageLabel, #Image, #Text, #Explanation, #Option1, #Option2, #Option3, #Option4, #Difficulty, #Easy, #easyLabel, #Medium, #mediumLabel, #Hard, #hardLabel, #Concept, #Reference, #Image{
+  font-size: 15px;
+}
+
+#Course, #Text, #Explanation, #Option1, #Option2, #Option3, #Option4, #Concept, #Reference, #Image{
+  background-color: rgb(180, 170, 236);
+  color:white;
+  border: 5px solid white;
+  border-radius: 15px;
+  text-align: center;
+}
+
+#Image:focus, #Text:focus, #Explanation:focus, #Option1:focus, #Option2:focus, #Option3:focus, #Option4:focus, #Concept:focus, #Reference:focus, #Image:focus, #Course:focus{
+  outline: none;
+}
+#imageLabel{
+  position:relative;
+  top:25px;
+}
+
+#Course{
+  width:725px;
+  height:75px;
+  margin-top: 50px;
+  text-align-last:center;
+}
+
+#Image{
+  position:relative;
+  top:25px;
+  width:725px;
+  height:75px;
+  position:relative;
+  margin-top: -50px;
+}
+
+#Text{
+  position:relative;
+  width:725px;
+  height:75px;
+  margin-top: 75px;
+}
+
+#Explanation{
+  position:relative;
+  width:725px;
+  height:75px;
+  margin-top: 50px;
+}
+
+#Option1{
+  position:relative;
+  margin-left:20px;
+  width:725px;
+  height:75px;
+  margin-top:-95px;
+}
+
+#Option2{
+  position:relative;
+  margin-left:20px;
+  width:725px;
+  height:75px;
+  margin-top:26px;
+}
+
+#Option3{
+  position:relative;
+  margin-left:20px;
+  width:725px;
+  height:75px;
+  margin-top:26px;
+  top:25px;
+}
+
+#Option4{
+  position:relative;
+  margin-left:20px;
+  width:725px;
+  height:75px;
+  margin-top:26px;
+  top:50px;
+}
+
+#Difficulty{
+  font-size: 20px;
+  position:relative;
+  margin-left:725px;
+  top:25px;
+}
+
+#Easy{
+  position:relative;
+  top:50px;
+  left:200px;
+}
+
+#easyLabel{
+  position:relative;
+  top:50px;
+  left:200px;
+}
+
+#Medium{
+  position:relative;
+  top:50px;
+  left:640px;
+}
+
+#mediumLabel{
+  position:relative;
+  top:50px;
+  left:640px;
+}
+
+#Hard{
+  position:relative;
+  top:50px;
+  left:1080px;
+}
+
+#hardLabel{
+  position:relative;
+  top:50px;
+  left:1080px;
+}
+
+#Concept{
+  position:relative;
+  top:50px;
+  width:600px;
+  height:100px;
+}
+
+#Reference{
+  position:relative;
+  top:50px;
+  width:600px;
+  height:100px;
+  left:50px;
+}
+
+#option1Checkbox{
+  width:25px;
+  height:25px;
+  position:relative;
+  top:-150px;
+  left:20px;
+}
+
+#option2Checkbox{
+  width:25px;
+  height:25px;
+  position:relative;
+  top:-60px;
+  left:20px;
+}
+
+#option3Checkbox{
+  width:25px;
+  height:25px;
+  position:relative;
+  top:35px;
+  left:20px;
+}
+
+#option4Checkbox{
+  width:25px;
+  height:25px;
+  position:relative;
+  top:130px;
+  left:20px;
+}
+
+#Error{
+  font-size: 20px;
+  position:relative;
+  top:50px;
+  color:#D9324A;
+  font-weight: bold;
+  left:1200px;
+  width:400px;
+}
+
+#Success{
+  font-size: 20px;
+  position:relative;
+  top:50px;
+  color:#17cc06;
+  font-weight: bold;
+  left:1300px;
+  width:400px;
+}
